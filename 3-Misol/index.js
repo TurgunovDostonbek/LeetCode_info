@@ -24,4 +24,5 @@
                 return a
             };  
             
+            
             console.log(truncateSentence("Hello how are you Contestant", k = 4));
