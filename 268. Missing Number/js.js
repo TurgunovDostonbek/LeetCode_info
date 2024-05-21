@@ -1,4 +1,4 @@
-//  oraliqda aniq raqamlarni numso'z ichiga olgan massiv berilgan bo'lsa , qatorda etishmayotgan yagona raqamni qaytaring .n[0, n]..
+//  Oraliqda aniq raqamlarni numso'z ichiga olgan massiv berilgan bo'lsa , qatorda etishmayotgan yagona raqamni qaytaring .n[0, n]..
 
 // 1-misol:
 
