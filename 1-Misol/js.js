@@ -17,13 +17,13 @@
 ////////////////////////////////////   ////////////////////////////
              //   Javbolar //
 
-            var missingNumber = function(nums) {
-                const n = nums.length;   ///  birinchi nums uzunligi topiladi 
-                const Tsum = (n * (n + 1)) / 2;  /// (3 * (3 + 1 ) / 2) = 6
-                const actualSum = nums.reduce((acc, num) => acc + num, 0);  /// hammasini yig"amiz 4 
-                console.log(Tsum - actualSum); //  6 - 4 = 2 
-            };
+        var missingNumber = function(nums) {
+           const n = nums.length;   ///  birinchi nums uzunligi topiladi 
+           const Tsum = (n * (n + 1)) / 2;  /// (3 * (3 + 1 ) / 2) = 6
+           const actualSum = nums.reduce((acc, num) => acc + num, 0);  /// hammasini yig"amiz 4 
+           console.log(Tsum - actualSum); //  6 - 4 = 2 
+        };
 
-            missingNumber([3,0,1])
-            missingNumber([9,6,4,2,3,5,7,0,1])
+        missingNumber([3,0,1])
+        missingNumber([9,6,4,2,3,5,7,0,1])
 
