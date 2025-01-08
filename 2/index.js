@@ -6,18 +6,17 @@
 // Kirish: manzil = "1.1.1.1"
 //  Chiqish: "1[.]1[.]1[.]1"
 
-
 // 2-misol:
 
 // Kirish: manzil = "255.100.50.0"
 //  Chiqish: "255[.]100[.]50[.]0"
 
-
+////////////////////////////////////    ////////////////////////////
 ////////////////////////////////////   ////////////////////////////
-             //   Javbolar //
+//   Javbolar //
 
-        var defangIPaddr = function(address) {
-            return   address.split('.').join("[.]")
-        };    
-        
-        console.log(defangIPaddr("1.1.1.1"));
+var defangIPaddr = function (address) {
+  return address.split(".").join("[.]");
+};
+
+console.log(defangIPaddr("1.1.1.1"));
